@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.body {
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.body__header {
+    font-size: 12px;
+    background-color: #EAC926;
+}
+
+.buscador {
+    text-align: center;
+}
+
+.burger-menu {
+    text-align: center;
+}
+.burger-menu button {
+    border-radius: 15%;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #1259c3;
+    margin: 10px;
+    
+}
+/* MAIN */
+
+.main {
+    padding: 5px 0;
+    background-color:  #ebebeb;
+}
+.main ul li section article {
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px;
+}
+
+.product-image {
+    text-align: center;
+}
+
+main h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 25px;
+}
+
+ul {
+    margin: 10px;
+    padding: 0;
+}
+
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main__section--precios {
+    font-size: 18px;
+    text-align: center;
+}
+
+.main__section--descuento {
+    font-size: 16px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 16px;
+    color:  #666;
+}
+
+/* FOOTER */
+.footer {
+    padding: 5px 2px;
+}
+
+.footer__section {
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer__section i {
+    font-size: 2em;
+    color: #1259c3;
+    padding: 40px 0 10px 0;
+}
+
+.footer__section p {
+    color: #666;
+    margin: 5px 75px;
+}
+
+.copy {
+    text-align: center;
+    margin: 25px 0 5px;
+    color: #666;
+}
+
+
