@@ -100,6 +100,7 @@
     background-color:  #ebebeb;
 }
 
+
 .main__banner img{
     width: 100%;
 }
@@ -111,6 +112,7 @@
 .position {
     position: relative;
 }
+
 
 .main ul li section article i{
     color: #39b54a;
@@ -183,6 +185,7 @@ a {
 .main__section {
     display: flex;
     flex-direction: column;
+    align-content: flex-start;
 }
 
 
@@ -207,11 +210,23 @@ a {
 }
 
 h4 {
-    padding-bottom: 15px;
+    position: absolute;
     font-size: 16px;
     color:  #666;
-    margin-left: 15px;
+    width: 100%;
+    top: -100%;
 }
+.description__container {
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+}
+.main__section--article:hover{
+    top: 0;
+    transition: 1s;
+
+}
+
 
 /* MAIN */
 .main__register, .main__login {
@@ -342,9 +357,19 @@ h4 {
         width: 90%;
         padding: 5px 0 50px 0;
     }
-    .main__section article, .section__ofertas article {
+
+    /* .main__section {
+        display: flex;
+        align-content: flex-start;
+    } */
+
+    .main__section--article, .section__ofertas article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 35%;
+        /* height: 350px; */
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
       }
 
     .main__section, .section__ofertas {
@@ -352,8 +377,29 @@ h4 {
         flex-wrap: wrap;
         flex-direction: row;
         gap: 30px;
-        justify-content: center;   
+        justify-content: center;  
+        align-content: flex-start; 
     }
+
+    .description__container {
+        /* position: relative;
+        height: 30px;
+        overflow: hidden; */
+    }
+
+    /* .main__section--article {
+        height: 350px;
+    } */
+
+    .main__section--article:hover{
+        top: 0;
+        transition: 1s;
+    
+    }
+
+    /* .main__section--article:hover h4{
+        height: 40px;
+    } */
     
     .compra-en-cuotas {
         width: 220px;
